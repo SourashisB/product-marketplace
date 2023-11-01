@@ -25,6 +25,13 @@ export const textInputHelperLabel = (holdText, helperText, labelText) => {
             <FormHelperText>{helperText}</FormHelperText>
         </FormControl>
     )
-
 }
 
+export const textInputHelper = (holdText, helperText) => {
+    return (
+        <FormLabel>
+            <Input placeholder={holdText} variant="soft" required />
+            <FormHelperText>{helperText}</FormHelperText>
+        </FormLabel>
+    )
+}
