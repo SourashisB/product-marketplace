@@ -3,8 +3,7 @@ import React from "react";
 
 
 export function pmSimpleButton(text, onClickFunc, variant, color) {
-
-    
+   
     return(
         <Button variant={variant} size="md" color={color} onClick={onClickFunc}>{text}</Button>
     )
